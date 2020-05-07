@@ -1,0 +1,20 @@
+Heal,Potion,Heals a Pokemon's HP by 20 points,300,20
+Heal,Super Potion,Heals a Pokemon's HP by 50 points,700,50
+Heal,Fresh Water,Heals a Pokemon's HP by 50 points,200,50
+Heal,Soda Pop,Heals a Pokemon's HP by 60 points,300,60
+Heal,Lemonade,Heals a Pokemon's HP by 80 points,350,80
+Heal,Moomoo Milk,Heals a Pokemon's HP by 100 points,500,100
+Heal,Hyper Potion,Heals a Pokemon's HP by 200 points,1200,200
+Heal,Max Potion,Fully heals a Pokemon's HP,2500,0
+Status,Burn Heal,Heals burns,300,3
+Status,Antidote,Heals poisoning,300,2
+Status,Paralyz Heal,Heals paralysis,300,1
+Status,Awakening,Heals sleep,300,4
+Status,Ice Heal,Heals freezing,300,5
+Status,Full Heal,Heals all status effects,600,0
+Hybrid,Full Restore,Heals all status effects and restores full HP,3000,0
+Hybrid,Max Revive,Revives a Pokemon from fainting with full HP,10000,1
+Hybrid,Revival Herb,Revives a Pokemon from fainting with full HP,4000,1
+Pokeball,Poke ball,Standard Pokeball,200,1
+Pokeball,Great Ball,Pokeball with  a higher catch rate than a Pokeball,600,1.25
+Pokeball,Ultra Ball,Pokeball with  a higher catch rate than a Great ball,1200,1.5

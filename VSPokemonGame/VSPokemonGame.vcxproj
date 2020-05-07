@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{109C04AA-9DB0-4FA3-8439-2DA65BA9723D}</ProjectGuid>
+    <RootNamespace>VSPokemonGame</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>Libraries\SDL2_image-2.0.3\include;Libraries\SDL2_mixer-2.0.1\include;Libraries\SDL2-2.0.8\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>Libraries\SDL2-2.0.8\lib\x86;Libraries\SDL2_mixer-2.0.1\lib\x86;Libraries\SDL2_image-2.0.3\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2_image.lib;SDL2_mixer.lib;SDL2main.lib;SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>Libraries\SDL2_image-2.0.3\include;Libraries\SDL2_mixer-2.0.1\include;Libraries\SDL2-2.0.8\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>Libraries\SDL2-2.0.8\lib\x64;Libraries\SDL2_mixer-2.0.1\lib\x64;Libraries\SDL2_image-2.0.3\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2_image.lib;SDL2_mixer.lib;SDL2main.lib;SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>Libraries\SDL2_image-2.0.2\include;Libraries\SDL2_mixer-2.0.1\include;Libraries\SDL2-2.0.5\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>Libraries\SDL2-2.0.5\lib\x86;Libraries\SDL2_mixer-2.0.1\lib\x86;Libraries\SDL2_image-2.0.2\lib\x86;Libraries\SDL2_ttf-2.0.14\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2_image.lib;SDL2_mixer.lib;SDL2main.lib;SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bag.cpp" />
+    <ClCompile Include="BaseBattle.cpp" />
+    <ClCompile Include="BaseCharacter.cpp" />
+    <ClCompile Include="BattleWindow.cpp" />
+    <ClCompile Include="Building.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="CollisionRectangle.cpp" />
+    <ClCompile Include="enums.cpp" />
+    <ClCompile Include="Enviroment.cpp" />
+    <ClCompile Include="HealHealthItem.cpp" />
+    <ClCompile Include="HybridHealItem.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemPickup.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CharacterSprite.cpp" />
+    <ClCompile Include="MainClass.cpp" />
+    <ClCompile Include="MoveSet.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerSprite.cpp" />
+    <ClCompile Include="Pokeball.cpp" />
+    <ClCompile Include="PokemonGen.cpp" />
+    <ClCompile Include="PokemonBase.cpp" />
+    <ClCompile Include="PokemonMove.cpp" />
+    <ClCompile Include="PokemonSprite.cpp" />
+    <ClCompile Include="SdlSetup.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="StatusBar.cpp" />
+    <ClCompile Include="StatusHealItem.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="Trainer.cpp" />
+    <ClCompile Include="TrainerBattle.cpp" />
+    <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="Zone.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bag.h" />
+    <ClInclude Include="BaseBattle.h" />
+    <ClInclude Include="BaseCharacter.h" />
+    <ClInclude Include="BattleWindow.h" />
+    <ClInclude Include="Building.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="CollisionRectangle.h" />
+    <ClInclude Include="enums.h" />
+    <ClInclude Include="Enviroment.h" />
+    <ClInclude Include="HealHealthItem.h" />
+    <ClInclude Include="HybridHealItem.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemQuantity.h" />
+    <ClInclude Include="CharacterSprite.h" />
+    <ClInclude Include="ItemPickup.h" />
+    <ClInclude Include="MainClass.h" />
+    <ClInclude Include="MoveSet.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerSprite.h" />
+    <ClInclude Include="Pokeball.h" />
+    <ClInclude Include="PokemonGen.h" />
+    <ClInclude Include="PokemonBase.h" />
+    <ClInclude Include="PokemonMove.h" />
+    <ClInclude Include="PokemonSprite.h" />
+    <ClInclude Include="SdlSetup.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="StatusBar.h" />
+    <ClInclude Include="StatusHealItem.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="Trainer.h" />
+    <ClInclude Include="TrainerBattle.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="Zone.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

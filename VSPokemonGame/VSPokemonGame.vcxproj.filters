@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ItemClasses">
+      <UniqueIdentifier>{1c200bbb-f90b-4b67-a4d2-46a281d239dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleClasses">
+      <UniqueIdentifier>{eb0f4a45-06db-4d2a-b1ad-a4424358af74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterClasses">
+      <UniqueIdentifier>{a399e3d3-b89b-4fee-a16e-f9097aeb471e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PokemonClasses">
+      <UniqueIdentifier>{dbb18a72-3bd0-4805-b7f1-8275dbd73f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasicSDLClasses">
+      <UniqueIdentifier>{84041bd5-0da0-4cd2-9842-2a882c2073a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EnvironmentClasess">
+      <UniqueIdentifier>{9c43bf61-ee6b-4829-bd88-8ce847438118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameplayClasses">
+      <UniqueIdentifier>{6d1f9e69-959e-4ee5-a062-ef4c7f9ab1b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bag.cpp">
+      <Filter>ItemClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>ItemClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="HealHealthItem.cpp">
+      <Filter>ItemClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="HybridHealItem.cpp">
+      <Filter>ItemClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusHealItem.cpp">
+      <Filter>ItemClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseBattle.cpp">
+      <Filter>BattleClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleWindow.cpp">
+      <Filter>BattleClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSprite.cpp">
+      <Filter>CharacterClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>CharacterClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSprite.cpp">
+      <Filter>CharacterClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Trainer.cpp">
+      <Filter>CharacterClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveSet.cpp">
+      <Filter>PokemonClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="PokemonBase.cpp">
+      <Filter>PokemonClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="PokemonGen.cpp">
+      <Filter>PokemonClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="PokemonMove.cpp">
+      <Filter>PokemonClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="PokemonSprite.cpp">
+      <Filter>PokemonClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>EnvironmentClasess</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionRectangle.cpp">
+      <Filter>EnvironmentClasess</Filter>
+    </ClCompile>
+    <ClCompile Include="Enviroment.cpp">
+      <Filter>EnvironmentClasess</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>EnvironmentClasess</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>BasicSDLClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>BasicSDLClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="enums.cpp">
+      <Filter>PokemonClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="SdlSetup.cpp">
+      <Filter>BasicSDLClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>BasicSDLClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Pokeball.cpp">
+      <Filter>ItemClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Zone.cpp">
+      <Filter>EnvironmentClasess</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusBar.cpp">
+      <Filter>CharacterClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCharacter.cpp">
+      <Filter>CharacterClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainerBattle.cpp">
+      <Filter>BattleClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemPickup.cpp">
+      <Filter>EnvironmentClasess</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>BasicSDLClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>GameplayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="MainClass.cpp">
+      <Filter>GameplayClasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Item.h">
+      <Filter>ItemClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemQuantity.h">
+      <Filter>ItemClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusHealItem.h">
+      <Filter>ItemClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="HybridHealItem.h">
+      <Filter>ItemClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="HealHealthItem.h">
+      <Filter>ItemClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Bag.h">
+      <Filter>ItemClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBattle.h">
+      <Filter>BattleClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCharacter.h">
+      <Filter>CharacterClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSprite.h">
+      <Filter>CharacterClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSprite.h">
+      <Filter>CharacterClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>CharacterClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Trainer.h">
+      <Filter>CharacterClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="PokemonBase.h">
+      <Filter>PokemonClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="PokemonGen.h">
+      <Filter>PokemonClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="PokemonMove.h">
+      <Filter>PokemonClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="PokemonSprite.h">
+      <Filter>PokemonClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveSet.h">
+      <Filter>PokemonClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>EnvironmentClasess</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionRectangle.h">
+      <Filter>EnvironmentClasess</Filter>
+    </ClInclude>
+    <ClInclude Include="Enviroment.h">
+      <Filter>EnvironmentClasess</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>EnvironmentClasess</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>BasicSDLClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>BasicSDLClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>PokemonClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="SdlSetup.h">
+      <Filter>BasicSDLClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>BasicSDLClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleWindow.h">
+      <Filter>BattleClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Pokeball.h">
+      <Filter>ItemClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Zone.h">
+      <Filter>EnvironmentClasess</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusBar.h">
+      <Filter>CharacterClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainerBattle.h">
+      <Filter>BattleClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemPickup.h">
+      <Filter>EnvironmentClasess</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>BasicSDLClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="MainClass.h">
+      <Filter>GameplayClasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
